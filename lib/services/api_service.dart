@@ -13,10 +13,10 @@ class ApiService {
     List<WebtoonModel> webtoonInstances = [];
     const today = "today";
     final url = Uri.parse('$baseUrl/$today');
-    final reponse = await http.get(url);
+    final response = await http.get(url);
     // Url > parse > get > 200? > webtoonModel > webtoonInstances > return
-    if (reponse.statusCode == 200) {
-      final List<dynamic> webtoons = jsonDecode(reponse.body);
+    if (response.statusCode == 200) {
+      final List<dynamic> webtoons = jsonDecode(response.body);
       for (var webtoon in webtoons) {
         webtoonInstances.add(WebtoonModel.fromJson(webtoon));
       }
