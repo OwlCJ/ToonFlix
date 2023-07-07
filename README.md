@@ -1,16 +1,10 @@
 # toonflix
 
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### 네이버 오늘의웹툰 RestAPI 실습용 앱 by Flutter with NomadCoder :)
+<br/><br/>
+![ToonFlix](https://github.com/OwlCJ/ToonFlix/assets/81318468/38216e16-107d-4ab6-a790-ba3477bc0782)
+<br/><br/>
+### 주요기능
+- 네이버 오늘의웹툰 fetch 받기
+- 특정 웹툰의 디테일 페이지로 접근해 최근 에피소드 보여주기
+- 원하는 에피소드 선택시 웹뷰를 통해 해당 에피소드 열기
